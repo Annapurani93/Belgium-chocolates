@@ -57,7 +57,7 @@ ggplot(data1, aes(x = hsize, y = Share, fill = Segment)) +
         plot.subtitle = element_text(size=14, colour="white",margin=margin(b=21)),
         plot.caption = element_text(size=12, colour="white",hjust=0,margin=margin(t=30)))+  
   theme(panel.spacing = unit(3, "lines"))+
-  labs(title="THE HIGHEST-RATED CHOCOLATES IN BELGIUM CONTAIN AT LEAST 50% OR MORE OF COCOA",
+  labs(title="THE HIGHEST-RATED CHOCOLATES IN BELGIUM CONTAIN MORE THAN 50% COCOA",
        subtitle = str_wrap("Chocolate plays an important part in the Belgian economy. There are over 2,000 chocolatiers in the country, and 172,000 tonnes of chocolate are produced each year and widely exported. But what is the share of cocoa in the the top-rated Belgium chocolates, and what do the chocolates actually taste like? Find out from the visualization below",150),
        caption="Data via Tidy Tuesday| Design and Analysis: @annapurani93")->img
 
